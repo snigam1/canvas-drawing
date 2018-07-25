@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing fun </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+
+</head>
+
+<body>
+    <div>
+        <div id="dvCanvas">
+
+        </div>
+
+        <div id="dvCommand" class="showTooltip">
+            <div>
+                Drawing canvas height width (800, 900) - C 800 900
+                <br/>  Lines with x, between (x1=100,x2200) to (x2=300,y2400) - L 100 200 300 400
+                <br/> Rectangles with x between (x1=100,x2200) to (x2=300,y2400)- R 100 200 300 400
+                <br/> Quit App - q
+                <br/> Hit enter key or click the Execute button.
+            </div>
+            <input id="txtCommand" value="C 600 700" onkeypress="enterKeyCommand(event)" />
+            <button id="btnCommand" onClick="excuteCommnd();"> Execute </button>
+            <button id="btnCommand" onClick="cleanCanvas();"> Clear </button>
+
+        </div>
+    </div>
+    <script src="src/drawing.js"></script>
+
+</body>
+
+</html>
