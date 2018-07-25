@@ -1,6 +1,6 @@
 
 # Project Detail
-This project is about drawing utilities in HTML Canvas. Example Drwaing lines, Rectangles with text, 
+This project is about drawing utilities in HTML Canvas. Example Drwaing lines, Rectangles with chacters(x) by excuting certain commands. 
 
 
 ## prerequisites and Instalation
