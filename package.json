@@ -1,0 +1,32 @@
+{
+  "name": "canvas-drawing",
+  "version": "1.0.0",
+  "description": "A drwaing test with some commands",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigam1/canvas-drawing.git"
+  },
+  "keywords": [
+    "canvasdrawing",
+    "codingtest"
+  ],
+  "author": "Ngamananda Sahoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snigam1/canvas-drawing/issues"
+  },
+  "homepage": "https://github.com/snigam1/canvas-drawing#readme",
+  "devDependencies": {
+    "webpack": "^4.16.2",
+    "webpack-command": "^0.4.1"
+  }
+}
